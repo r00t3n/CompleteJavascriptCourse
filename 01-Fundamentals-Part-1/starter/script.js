@@ -21,3 +21,4 @@ javaScriptIsFun = "Fun!";
 const ageJonas = 2037 - 1993;
 console.log(ageJonas);
 
+console.log("Testing");
