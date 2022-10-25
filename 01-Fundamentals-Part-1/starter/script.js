@@ -16,9 +16,25 @@ console.log(typeof 23);
 console.log(typeof "javaScriptIsFun");
 
 javaScriptIsFun = "Fun!";
-*/
 
-const ageJonas = 2037 - 1993;
-console.log(ageJonas);
+
+const now = 2022;
+
+const ageJonas = now - 1993;
+const ageSarah = now - 1991;
+console.log(ageJonas, ageSarah, (ageJonas + ageSarah) / 2);
 
 console.log("Testing");
+*/
+
+const weightMark = 78;
+const heightMark = 1.69;
+
+const weightJohn = 92;
+const heightJohn = 1.95;
+
+let BMIMark = weightMark / (heightMark ** 2);
+let BMIJohn = weightMark / (heightMark * heightJohn);
+
+console.log(BMIMark, BMIJohn);
+console.log(BMIMark > BMIJohn);
