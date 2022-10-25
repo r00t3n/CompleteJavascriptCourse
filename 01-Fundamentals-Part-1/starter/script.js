@@ -25,7 +25,7 @@ const ageSarah = now - 1991;
 console.log(ageJonas, ageSarah, (ageJonas + ageSarah) / 2);
 
 console.log("Testing");
-*/
+
 
 const weightMark = 78;
 const heightMark = 1.69;
@@ -38,3 +38,13 @@ let BMIJohn = weightMark / (heightMark * heightJohn);
 
 console.log(BMIMark, BMIJohn);
 console.log(BMIMark > BMIJohn);
+
+
+const firstName = "Florin";
+const job = "Engineer";
+const birthYear = 1993;
+
+const Florin = `Hello, I'm ${firstName}, a ${2022 - birthYear} old ${job}`;
+
+console.log(Florin);
+*/
