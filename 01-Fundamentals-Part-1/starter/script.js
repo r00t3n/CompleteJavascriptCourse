@@ -48,3 +48,26 @@ const Florin = `Hello, I'm ${firstName}, a ${2022 - birthYear} old ${job}`;
 
 console.log(Florin);
 */
+// const age = 19;
+// const isOldEnough = age >= 18;
+
+// if (isOldEnough) {
+//     console.log(`Is old enough!`, isOldEnough);
+// }
+
+// const favourite = Number(prompt("What is your favourite number?"));
+// console.log(favourite);
+// console.log(typeof favourite);
+
+// if (favourite === 23) {
+//     alert(`Cool ${favourite} is an amazing number!`);
+// }
+
+// coding challenge 4 termary operator
+
+let bill = 275;
+
+const tip = bill >= 50 && bill <= 300 ? bill * .15 : bill * .2;
+console.log(tip);
+
+console.log(`The total was ${tip + bill}`);
